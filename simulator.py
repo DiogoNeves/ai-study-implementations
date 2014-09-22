@@ -16,6 +16,9 @@ What I'd do better...
 Performance should be measured by the Agent.
 
 The whole structure could resemble the structures presented in the book a bit more.
+Ended up creating something that behaves similar to the intended result but with the wrong design.
+Most aspects of the data structures are not properly encapsulated where they should and agents and performance
+measures, essentially cheat.
 
 I'd manage the actions in the Agent itself and create try_action method in the environment, called by an actuator
 instead of an Agent directly.
