@@ -13,6 +13,10 @@ This file contains code to create, setup and run a simulation environment of a s
 Modular so we can experiment different agents, performance functions, maps etc...
 
 What I'd do better...
+Performance should be measured by the Agent.
+
+The whole structure could resemble the structures presented in the book a bit more.
+
 I'd manage the actions in the Agent itself and create try_action method in the environment, called by an actuator
 instead of an Agent directly.
 
