@@ -96,6 +96,7 @@ class Map:
 
     @staticmethod
     def is_flag_in_state(state, flag):
+        """Check if the flag is set in state."""
         return (flag & state) == flag
 
     def has_flag(self, flag, position):
@@ -131,7 +132,7 @@ class Map:
         return sum([1 for s in self._state if Map.is_flag_in_state(s, flag)])
 
     def _get_index_from(self, position):
-        """Convert the position (x, y) to the state list index."""
+        """Convert the position (x, y) to the state internal list index."""
         return position.x + position.y * self.width
 
     def __repr__(self):
