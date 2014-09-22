@@ -18,6 +18,9 @@ instead of an Agent directly.
 
 This would represent better, the structure of the reality we are analysing in the exercise.
 
+I'm also not sure about how I implemented the sensors, they receive too much of the world, I'd replace this into
+queries.
+
 I'm happy I didn't spend long on it... lets move on :)
 """
 
